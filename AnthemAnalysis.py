@@ -400,7 +400,7 @@ def Generate(my_entry,a):
     # print(dfs)
 
 
-    openai.api_key = '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'
+    openai.api_key = ''
 
     def get_completion(prompt, model="gpt-3.5-turbo"):
         messages = [{"role": "user", "content": prompt}]
